@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: beige;
+}
+
+#main {
+    width: 60%;
+    margin: 0 20%;
+}
+
+#logo {
+    text-align: center;
+    font-size: 4em;
+    margin: 20px;
+}
+
+nav {
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    font-size: 1.1em;
+    margin: 10px 20px 10px 0;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+nav a:active {
+    color: red;
+}
+
+nav a:last-child {
+    margin-right: 0px;
+}
+
+#content {
+    background-color: bisque;
+    padding: 30px 10px 0 30px;
+}
+
+#content h2 {
+    color: dimgray;
+    margin-bottom: 5px;
+}
+
+#content p, #content ul {
+    padding-left: 15px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+#content ul li {
+    margin-bottom: 10px;
+}
+
+#myself {
+    height: 10%;
+    margin: 0 0 10px 10px;
+    float: right;
+}
+
+.text-up {
+    vertical-align: top;
+}
+
+#jobb-oldali {
+    width: 20%;
+    padding-left: 15px;
+}
+
+#jobb-oldali p {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: grey;
+}
+
+#jobb-oldali a {
+    text-decoration: none;
+    color: grey;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.gallery-image {
+    max-height: 400px;
+    margin-bottom: 30px;
+}
